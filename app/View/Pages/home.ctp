@@ -14,5 +14,6 @@ if(AuthComponent::user()){
 	<h3><?php echo __('Actions'); ?></h3>
 	<ul>
 		<?php echo $this->Html->link('USERS','/users/index');?>
+		<?php echo $this->Html->link('PRIVILEGUES','/groups/index');?>
 	</ul>
 </div>
