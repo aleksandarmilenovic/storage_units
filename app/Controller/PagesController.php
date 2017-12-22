@@ -37,6 +37,14 @@ class PagesController extends AppController {
  */
 	public $uses = array();
 
+	public function beforeFilter(){
+		$this->Auth->allow('display');
+		//$this->Auth->allow('default');// pitat  mentora
+		//$this->Auth->allow('index');
+		//echo 'hello!';
+		//exit();		
+	}//~!
+
 /**
  * Displays a view
  *

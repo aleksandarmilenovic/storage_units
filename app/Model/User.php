@@ -48,12 +48,21 @@ class User extends AppModel {
 		'password' => array(
 			'notBlank' => array(
 				'rule' => array('notBlank'),
-				//'message' => 'Your custom message here',
+				'message' => 'NESME BITI PRAZNO',
 				//'allowEmpty' => false,
 				//'required' => false,
 				//'last' => false, // Stop validation after this rule
 				//'on' => 'create', // Limit validation to 'create' or 'update' operations
 			),
+			 'minLength' => array(
+
+               'rule' => array('minLength',8),
+
+               'message' => 'username length must have minimum 8 characters!',
+
+
+
+           ),
 		),
 	);
 }

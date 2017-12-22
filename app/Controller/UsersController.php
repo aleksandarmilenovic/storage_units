@@ -19,6 +19,7 @@ class UsersController extends AppController {
 
 	public function beforeFilter(){
 		$this->Auth->allow('add');
+		//$this->Auth->allow('default');// pitat  mentora
 		//$this->Auth->allow('index');
 	}
 
@@ -36,13 +37,13 @@ class UsersController extends AppController {
 
 	public function logout(){
 		$this->Auth->logout();
-		$this->redirect('index');
+		$this->redirect('../');
 	}
 
 	public function index(){
 		$this->User->recursive = 0;
 		$this->set('Users',$this->Paginator->paginate());
-	}
+	} 
 
 	public function add(){
 
@@ -50,9 +51,6 @@ class UsersController extends AppController {
 
 			$this->User->create();
 			$this->request->data['User']['password'] = AuthComponent::password($this->request->data['User']['password']);
-		//	$PasswordHasher = new SimplePasswordHasher(); // or add array('hashType' => '...') to overwrite default "sha1" type
-	//		$this->request->data['User']['password'] = $PasswordHasher->hash($this->request->data['User']['password']);
-
 			$this->User->save($this->request->data);
 
 			if($this->User->save($this->request->data)){
