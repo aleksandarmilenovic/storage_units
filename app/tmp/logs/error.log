@@ -1,0 +1,2027 @@
+2017-12-21 10:44:08 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /cake/user
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-12-21 10:44:24 Error: [MissingActionException] Action UsersController::add.ctp() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'add.ctp',
+)
+Request URL: /cake/users/add.ctp
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\Scaffold.php(152): Scaffold->_scaffold(Object(CakeRequest))
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(536): Scaffold->__construct(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(495): Controller->_getScaffold(Object(CakeRequest))
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2017-12-21 11:14:48 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'password' doesn't have a default value
+Request URL: /cake/users/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(472): PDOStatement->execute(Array)
+#1 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(438): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(1092): DboSource->execute('INSERT INTO `ca...')
+#3 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1940): DboSource->create(Object(User), Array, Array)
+#4 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1758): Model->_doSave(Array, Array)
+#5 C:\wamp64\www\cake\app\Controller\UsersController.php(24): Model->save(Array)
+#6 [internal function]: UsersController->add()
+#7 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-12-21 11:16:32 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'password' doesn't have a default value
+Request URL: /cake/users/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(472): PDOStatement->execute(Array)
+#1 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(438): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(1092): DboSource->execute('INSERT INTO `ca...')
+#3 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1940): DboSource->create(Object(User), Array, Array)
+#4 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1758): Model->_doSave(Array, Array)
+#5 C:\wamp64\www\cake\app\Controller\UsersController.php(24): Model->save(Array)
+#6 [internal function]: UsersController->add()
+#7 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-12-21 11:17:19 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'password' doesn't have a default value
+Request URL: /cake/users/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(472): PDOStatement->execute(Array)
+#1 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(438): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(1092): DboSource->execute('INSERT INTO `ca...')
+#3 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1940): DboSource->create(Object(User), Array, Array)
+#4 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1758): Model->_doSave(Array, Array)
+#5 C:\wamp64\www\cake\app\Controller\UsersController.php(24): Model->save(Array)
+#6 [internal function]: UsersController->add()
+#7 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-12-21 11:31:35 Error: Fatal Error (1): Class 'Security' not found in [C:\wamp64\www\cake\app\Controller\UsersController.php, line 24]
+2017-12-21 11:31:35 Error: [FatalErrorException] Class 'Security' not found
+Request URL: /cake/users/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Class 'Security...', 'C:\\wamp64\\www\\c...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Security...', 'C:\\wamp64\\www\\c...', 24, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'Security...', 'C:\\wamp64\\www\\c...', 24, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 11:33:04 Error: Fatal Error (4): syntax error, unexpected 'App' (T_STRING), expecting function (T_FUNCTION) in [C:\wamp64\www\cake\app\Controller\UsersController.php, line 7]
+2017-12-21 11:33:04 Error: [FatalErrorException] syntax error, unexpected 'App' (T_STRING), expecting function (T_FUNCTION)
+Request URL: /cake/users/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 7, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 7, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 11:33:08 Error: Fatal Error (4): syntax error, unexpected 'App' (T_STRING), expecting function (T_FUNCTION) in [C:\wamp64\www\cake\app\Controller\UsersController.php, line 7]
+2017-12-21 11:33:08 Error: [FatalErrorException] syntax error, unexpected 'App' (T_STRING), expecting function (T_FUNCTION)
+Request URL: /cake/users/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 7, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 7, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 11:35:40 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) in [C:\wamp64\www\cake\app\Controller\UsersController.php, line 14]
+2017-12-21 11:35:40 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /cake/users/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 14, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 14, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 11:35:45 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) in [C:\wamp64\www\cake\app\Controller\UsersController.php, line 14]
+2017-12-21 11:35:45 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /cake/users
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 14, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 14, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 11:35:46 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) in [C:\wamp64\www\cake\app\Controller\UsersController.php, line 14]
+2017-12-21 11:35:46 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /cake/users
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 14, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 14, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 11:35:46 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) in [C:\wamp64\www\cake\app\Controller\UsersController.php, line 14]
+2017-12-21 11:35:46 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /cake/users
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 14, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 14, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 11:35:46 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) in [C:\wamp64\www\cake\app\Controller\UsersController.php, line 14]
+2017-12-21 11:35:46 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /cake/users
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 14, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 14, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 11:35:47 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) in [C:\wamp64\www\cake\app\Controller\UsersController.php, line 14]
+2017-12-21 11:35:47 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /cake/users
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 14, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 14, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 12:26:51 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /cake/users/login
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\Scaffold.php(152): Scaffold->_scaffold(Object(CakeRequest))
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(536): Scaffold->__construct(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(495): Controller->_getScaffold(Object(CakeRequest))
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2017-12-21 12:27:26 Error: [MissingViewException] View file "Users\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\login.ctp',
+)
+Request URL: /cake/users/login
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-12-21 12:40:13 Error: Fatal Error (1): Call to a member function allow() on null in [C:\wamp64\www\cake\app\Controller\UsersController.php, line 18]
+2017-12-21 12:40:13 Error: [FatalErrorException] Call to a member function allow() on null
+Request URL: /cake/users/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 18, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 18, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 13:17:37 Error: [MissingComponentException] Component class PlaginatorComponent could not be found.
+Exception Attributes: array (
+  'class' => 'PlaginatorComponent',
+  'plugin' => false,
+)
+Request URL: /cake/users/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Plaginator', Array)
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(644): ComponentCollection->init(Object(UsersController))
+#2 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-12-21 13:21:46 Error: [MissingComponentException] Component class PlaginatorComponent could not be found.
+Exception Attributes: array (
+  'class' => 'PlaginatorComponent',
+  'plugin' => false,
+)
+Request URL: /cake/users/items
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Plaginator', Array)
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(644): ComponentCollection->init(Object(UsersController))
+#2 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-12-21 13:22:30 Error: [MissingComponentException] Component class PlaginatorComponent could not be found.
+Exception Attributes: array (
+  'class' => 'PlaginatorComponent',
+  'plugin' => false,
+)
+Request URL: /cake/users
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Plaginator', Array)
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(644): ComponentCollection->init(Object(UsersController))
+#2 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-12-21 13:22:41 Error: [MissingComponentException] Component class PlaginatorComponent could not be found.
+Exception Attributes: array (
+  'class' => 'PlaginatorComponent',
+  'plugin' => false,
+)
+Request URL: /cake/users/login
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Plaginator', Array)
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(644): ComponentCollection->init(Object(UsersController))
+#2 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-12-21 13:22:59 Error: [MissingComponentException] Component class PlaginatorComponent could not be found.
+Exception Attributes: array (
+  'class' => 'PlaginatorComponent',
+  'plugin' => false,
+)
+Request URL: /cake/users/login
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Plaginator', Array)
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(644): ComponentCollection->init(Object(UsersController))
+#2 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-12-21 13:23:06 Error: [MissingComponentException] Component class PlaginatorComponent could not be found.
+Exception Attributes: array (
+  'class' => 'PlaginatorComponent',
+  'plugin' => false,
+)
+Request URL: /cake/users/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Plaginator', Array)
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(644): ComponentCollection->init(Object(UsersController))
+#2 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-12-21 13:23:14 Error: [MissingComponentException] Component class PlaginatorComponent could not be found.
+Exception Attributes: array (
+  'class' => 'PlaginatorComponent',
+  'plugin' => false,
+)
+Request URL: /cake/users/login
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Plaginator', Array)
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(644): ComponentCollection->init(Object(UsersController))
+#2 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-12-21 13:23:27 Error: [MissingComponentException] Component class PlaginatorComponent could not be found.
+Exception Attributes: array (
+  'class' => 'PlaginatorComponent',
+  'plugin' => false,
+)
+Request URL: /cake/users/login
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Plaginator', Array)
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(644): ComponentCollection->init(Object(UsersController))
+#2 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-12-21 13:23:28 Error: [MissingComponentException] Component class PlaginatorComponent could not be found.
+Exception Attributes: array (
+  'class' => 'PlaginatorComponent',
+  'plugin' => false,
+)
+Request URL: /cake/users/login
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Plaginator', Array)
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(644): ComponentCollection->init(Object(UsersController))
+#2 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-12-21 13:23:43 Error: [MissingComponentException] Component class PlaginatorComponent could not be found.
+Exception Attributes: array (
+  'class' => 'PlaginatorComponent',
+  'plugin' => false,
+)
+Request URL: /cake/users/login
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Plaginator', Array)
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(644): ComponentCollection->init(Object(UsersController))
+#2 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-12-21 13:23:44 Error: [MissingComponentException] Component class PlaginatorComponent could not be found.
+Exception Attributes: array (
+  'class' => 'PlaginatorComponent',
+  'plugin' => false,
+)
+Request URL: /cake/users/login
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Plaginator', Array)
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(644): ComponentCollection->init(Object(UsersController))
+#2 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-12-21 13:23:44 Error: [MissingComponentException] Component class PlaginatorComponent could not be found.
+Exception Attributes: array (
+  'class' => 'PlaginatorComponent',
+  'plugin' => false,
+)
+Request URL: /cake/users/login
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Plaginator', Array)
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(644): ComponentCollection->init(Object(UsersController))
+#2 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-12-21 13:23:45 Error: [MissingComponentException] Component class PlaginatorComponent could not be found.
+Exception Attributes: array (
+  'class' => 'PlaginatorComponent',
+  'plugin' => false,
+)
+Request URL: /cake/users/login
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Plaginator', Array)
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(644): ComponentCollection->init(Object(UsersController))
+#2 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-12-21 13:23:58 Error: [MissingComponentException] Component class PlagiatorComponent could not be found.
+Exception Attributes: array (
+  'class' => 'PlagiatorComponent',
+  'plugin' => false,
+)
+Request URL: /cake/users/login
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Plagiator', Array)
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(644): ComponentCollection->init(Object(UsersController))
+#2 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-12-21 13:23:58 Error: [MissingComponentException] Component class PlagiatorComponent could not be found.
+Exception Attributes: array (
+  'class' => 'PlagiatorComponent',
+  'plugin' => false,
+)
+Request URL: /cake/users/login
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Plagiator', Array)
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(644): ComponentCollection->init(Object(UsersController))
+#2 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-12-21 13:23:59 Error: [MissingComponentException] Component class PlagiatorComponent could not be found.
+Exception Attributes: array (
+  'class' => 'PlagiatorComponent',
+  'plugin' => false,
+)
+Request URL: /cake/users/login
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Plagiator', Array)
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(644): ComponentCollection->init(Object(UsersController))
+#2 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-12-21 13:23:59 Error: [MissingComponentException] Component class PlagiatorComponent could not be found.
+Exception Attributes: array (
+  'class' => 'PlagiatorComponent',
+  'plugin' => false,
+)
+Request URL: /cake/users/login
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Plagiator', Array)
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(644): ComponentCollection->init(Object(UsersController))
+#2 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-12-21 13:23:59 Error: [MissingComponentException] Component class PlagiatorComponent could not be found.
+Exception Attributes: array (
+  'class' => 'PlagiatorComponent',
+  'plugin' => false,
+)
+Request URL: /cake/users/login
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Plagiator', Array)
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(644): ComponentCollection->init(Object(UsersController))
+#2 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-12-21 13:23:59 Error: [MissingComponentException] Component class PlagiatorComponent could not be found.
+Exception Attributes: array (
+  'class' => 'PlagiatorComponent',
+  'plugin' => false,
+)
+Request URL: /cake/users/login
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Plagiator', Array)
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(644): ComponentCollection->init(Object(UsersController))
+#2 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-12-21 13:23:59 Error: [MissingComponentException] Component class PlagiatorComponent could not be found.
+Exception Attributes: array (
+  'class' => 'PlagiatorComponent',
+  'plugin' => false,
+)
+Request URL: /cake/users/login
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Plagiator', Array)
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(644): ComponentCollection->init(Object(UsersController))
+#2 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-12-21 13:24:00 Error: [MissingComponentException] Component class PlagiatorComponent could not be found.
+Exception Attributes: array (
+  'class' => 'PlagiatorComponent',
+  'plugin' => false,
+)
+Request URL: /cake/users/login
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Plagiator', Array)
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(644): ComponentCollection->init(Object(UsersController))
+#2 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-12-21 13:24:00 Error: [MissingComponentException] Component class PlagiatorComponent could not be found.
+Exception Attributes: array (
+  'class' => 'PlagiatorComponent',
+  'plugin' => false,
+)
+Request URL: /cake/users/login
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Plagiator', Array)
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(644): ComponentCollection->init(Object(UsersController))
+#2 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-12-21 13:24:00 Error: [MissingComponentException] Component class PlagiatorComponent could not be found.
+Exception Attributes: array (
+  'class' => 'PlagiatorComponent',
+  'plugin' => false,
+)
+Request URL: /cake/users/login
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Plagiator', Array)
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(644): ComponentCollection->init(Object(UsersController))
+#2 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-12-21 13:24:00 Error: [MissingComponentException] Component class PlagiatorComponent could not be found.
+Exception Attributes: array (
+  'class' => 'PlagiatorComponent',
+  'plugin' => false,
+)
+Request URL: /cake/users/login
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Plagiator', Array)
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(644): ComponentCollection->init(Object(UsersController))
+#2 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-12-21 13:24:01 Error: [MissingComponentException] Component class PlagiatorComponent could not be found.
+Exception Attributes: array (
+  'class' => 'PlagiatorComponent',
+  'plugin' => false,
+)
+Request URL: /cake/users/login
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Plagiator', Array)
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(644): ComponentCollection->init(Object(UsersController))
+#2 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-12-21 13:24:01 Error: [MissingComponentException] Component class PlagiatorComponent could not be found.
+Exception Attributes: array (
+  'class' => 'PlagiatorComponent',
+  'plugin' => false,
+)
+Request URL: /cake/users/login
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Plagiator', Array)
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(644): ComponentCollection->init(Object(UsersController))
+#2 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-12-21 13:24:01 Error: [MissingComponentException] Component class PlagiatorComponent could not be found.
+Exception Attributes: array (
+  'class' => 'PlagiatorComponent',
+  'plugin' => false,
+)
+Request URL: /cake/users/login
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Plagiator', Array)
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(644): ComponentCollection->init(Object(UsersController))
+#2 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-12-21 13:24:14 Error: [MissingComponentException] Component class PlaginatorComponent could not be found.
+Exception Attributes: array (
+  'class' => 'PlaginatorComponent',
+  'plugin' => false,
+)
+Request URL: /cake/users/login
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Plaginator', Array)
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(644): ComponentCollection->init(Object(UsersController))
+#2 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-12-21 13:24:15 Error: [MissingComponentException] Component class PlaginatorComponent could not be found.
+Exception Attributes: array (
+  'class' => 'PlaginatorComponent',
+  'plugin' => false,
+)
+Request URL: /cake/users/login
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Plaginator', Array)
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(644): ComponentCollection->init(Object(UsersController))
+#2 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-12-21 13:24:15 Error: [MissingComponentException] Component class PlaginatorComponent could not be found.
+Exception Attributes: array (
+  'class' => 'PlaginatorComponent',
+  'plugin' => false,
+)
+Request URL: /cake/users/login
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Plaginator', Array)
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(644): ComponentCollection->init(Object(UsersController))
+#2 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-12-21 13:24:16 Error: [MissingComponentException] Component class PlaginatorComponent could not be found.
+Exception Attributes: array (
+  'class' => 'PlaginatorComponent',
+  'plugin' => false,
+)
+Request URL: /cake/users/login
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Plaginator', Array)
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(644): ComponentCollection->init(Object(UsersController))
+#2 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-12-21 13:26:16 Error: [MissingComponentException] Component class PlagiatorComponent could not be found.
+Exception Attributes: array (
+  'class' => 'PlagiatorComponent',
+  'plugin' => false,
+)
+Request URL: /cake/users/login
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Plagiator', Array)
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(644): ComponentCollection->init(Object(UsersController))
+#2 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-12-21 13:34:54 Error: [MissingActionException] Action UsersController::add.ctp() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'add.ctp',
+)
+Request URL: /cake/users/add.ctp
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\Scaffold.php(152): Scaffold->_scaffold(Object(CakeRequest))
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(536): Scaffold->__construct(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(495): Controller->_getScaffold(Object(CakeRequest))
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2017-12-21 13:36:55 Error: [MissingControllerException] Controller class ItemController could not be found.
+Exception Attributes: array (
+  'class' => 'ItemController',
+  'plugin' => NULL,
+)
+Request URL: /cake/item
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-12-21 13:36:58 Error: Fatal Error (1): Call to a member function paginate() on null in [C:\wamp64\www\cake\app\Controller\ItemsController.php, line 22]
+2017-12-21 13:36:58 Error: [FatalErrorException] Call to a member function paginate() on null
+Request URL: /cake/items
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 13:37:34 Error: Fatal Error (1): Call to a member function paginate() on null in [C:\wamp64\www\cake\app\Controller\ItemsController.php, line 22]
+2017-12-21 13:37:34 Error: [FatalErrorException] Call to a member function paginate() on null
+Request URL: /cake/items
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 13:37:47 Error: Fatal Error (1): Call to a member function paginate() on null in [C:\wamp64\www\cake\app\Controller\ItemsController.php, line 22]
+2017-12-21 13:37:47 Error: [FatalErrorException] Call to a member function paginate() on null
+Request URL: /cake/items
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 13:37:48 Error: Fatal Error (1): Call to a member function paginate() on null in [C:\wamp64\www\cake\app\Controller\ItemsController.php, line 22]
+2017-12-21 13:37:48 Error: [FatalErrorException] Call to a member function paginate() on null
+Request URL: /cake/items
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 13:37:49 Error: Fatal Error (1): Call to a member function paginate() on null in [C:\wamp64\www\cake\app\Controller\ItemsController.php, line 22]
+2017-12-21 13:37:49 Error: [FatalErrorException] Call to a member function paginate() on null
+Request URL: /cake/items
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 13:37:49 Error: Fatal Error (1): Call to a member function paginate() on null in [C:\wamp64\www\cake\app\Controller\ItemsController.php, line 22]
+2017-12-21 13:37:49 Error: [FatalErrorException] Call to a member function paginate() on null
+Request URL: /cake/items
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 13:38:02 Error: Fatal Error (1): Call to a member function paginate() on null in [C:\wamp64\www\cake\app\Controller\ItemsController.php, line 22]
+2017-12-21 13:38:02 Error: [FatalErrorException] Call to a member function paginate() on null
+Request URL: /cake/items
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 13:38:02 Error: Fatal Error (1): Call to a member function paginate() on null in [C:\wamp64\www\cake\app\Controller\ItemsController.php, line 22]
+2017-12-21 13:38:02 Error: [FatalErrorException] Call to a member function paginate() on null
+Request URL: /cake/items
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 13:38:03 Error: Fatal Error (1): Call to a member function paginate() on null in [C:\wamp64\www\cake\app\Controller\ItemsController.php, line 22]
+2017-12-21 13:38:03 Error: [FatalErrorException] Call to a member function paginate() on null
+Request URL: /cake/items
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 13:38:20 Error: Fatal Error (1): Call to a member function paginate() on null in [C:\wamp64\www\cake\app\Controller\ItemsController.php, line 22]
+2017-12-21 13:38:20 Error: [FatalErrorException] Call to a member function paginate() on null
+Request URL: /cake/items
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 13:38:23 Error: [MissingControllerException] Controller class ItemController could not be found.
+Exception Attributes: array (
+  'class' => 'ItemController',
+  'plugin' => NULL,
+)
+Request URL: /cake/item
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-12-21 13:38:27 Error: Fatal Error (1): Call to a member function paginate() on null in [C:\wamp64\www\cake\app\Controller\ItemsController.php, line 22]
+2017-12-21 13:38:27 Error: [FatalErrorException] Call to a member function paginate() on null
+Request URL: /cake/items
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 13:40:21 Error: Fatal Error (1): Call to a member function paginate() on null in [C:\wamp64\www\cake\app\Controller\ItemsController.php, line 22]
+2017-12-21 13:40:21 Error: [FatalErrorException] Call to a member function paginate() on null
+Request URL: /cake/items
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 13:40:24 Error: Fatal Error (1): Call to a member function paginate() on null in [C:\wamp64\www\cake\app\Controller\ItemsController.php, line 22]
+2017-12-21 13:40:24 Error: [FatalErrorException] Call to a member function paginate() on null
+Request URL: /cake/items/index
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 22, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 13:49:04 Error: [MissingControllerException] Controller class ItemsController could not be found.
+Exception Attributes: array (
+  'class' => 'ItemsController',
+  'plugin' => NULL,
+)
+Request URL: /cake/items/index
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-12-21 15:05:00 Error: [MissingComponentException] Component class Auth`Component could not be found.
+Exception Attributes: array (
+  'class' => 'Auth`Component',
+  'plugin' => false,
+)
+Request URL: /cake/users/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Auth`', Array)
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(644): ComponentCollection->init(Object(UsersController))
+#2 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-12-21 15:13:19 Error: Fatal Error (64): Cannot redeclare UsersController::$components in [C:\wamp64\www\cake\app\Controller\UsersController.php, line 18]
+2017-12-21 15:13:19 Error: [FatalErrorException] Cannot redeclare UsersController::$components
+Request URL: /cake/users
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\\wamp64\\www\\c...', 18)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\\wamp64\\www\\c...', 18, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\\wamp64\\www\\c...', 18, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 15:33:16 Error: [MissingControllerException] Controller class EditController could not be found.
+Exception Attributes: array (
+  'class' => 'EditController',
+  'plugin' => NULL,
+)
+Request URL: /cake/edit
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-12-21 15:34:11 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\wamp64\www\cake\app\Controller\UsersController.php, line 38]
+2017-12-21 15:34:11 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /cake/users/login
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 38)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 38, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 38, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 15:34:51 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\wamp64\www\cake\app\Controller\UsersController.php, line 38]
+2017-12-21 15:34:52 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /cake/users/login
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 38)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 38, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 38, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 15:38:36 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\wamp64\www\cake\app\Controller\UsersController.php, line 38]
+2017-12-21 15:38:36 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /cake/users/login
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 38)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 38, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 38, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 15:38:39 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\wamp64\www\cake\app\Controller\UsersController.php, line 38]
+2017-12-21 15:38:39 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /cake/users/index
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 38)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 38, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 38, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 16:13:06 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in [C:\wamp64\www\cake\app\View\Users\index.ctp, line 4]
+2017-12-21 16:13:06 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'
+Request URL: /cake/users/index
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 16:13:31 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in [C:\wamp64\www\cake\app\View\Users\index.ctp, line 4]
+2017-12-21 16:13:31 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'
+Request URL: /cake/users/index
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 16:13:32 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in [C:\wamp64\www\cake\app\View\Users\index.ctp, line 4]
+2017-12-21 16:13:32 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'
+Request URL: /cake/users/index
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 16:14:33 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in [C:\wamp64\www\cake\app\View\Users\index.ctp, line 4]
+2017-12-21 16:14:33 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'
+Request URL: /cake/users/index
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 16:14:34 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in [C:\wamp64\www\cake\app\View\Users\index.ctp, line 4]
+2017-12-21 16:14:34 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'
+Request URL: /cake/users/index
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 16:15:14 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in [C:\wamp64\www\cake\app\View\Users\index.ctp, line 4]
+2017-12-21 16:15:14 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'
+Request URL: /cake/users/index
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 16:15:14 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in [C:\wamp64\www\cake\app\View\Users\index.ctp, line 4]
+2017-12-21 16:15:15 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'
+Request URL: /cake/users/index
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 16:15:29 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in [C:\wamp64\www\cake\app\View\Users\index.ctp, line 4]
+2017-12-21 16:15:30 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'
+Request URL: /cake/users/index
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 16:15:30 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in [C:\wamp64\www\cake\app\View\Users\index.ctp, line 4]
+2017-12-21 16:15:30 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'
+Request URL: /cake/users/index
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 16:15:41 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in [C:\wamp64\www\cake\app\View\Users\index.ctp, line 4]
+2017-12-21 16:15:41 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'
+Request URL: /cake/users/index
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 16:15:42 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in [C:\wamp64\www\cake\app\View\Users\index.ctp, line 4]
+2017-12-21 16:15:42 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'
+Request URL: /cake/users/index
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 16:16:12 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in [C:\wamp64\www\cake\app\View\Users\index.ctp, line 4]
+2017-12-21 16:16:12 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'
+Request URL: /cake/users/index
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 16:16:13 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in [C:\wamp64\www\cake\app\View\Users\index.ctp, line 4]
+2017-12-21 16:16:13 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'
+Request URL: /cake/users/index
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 16:16:14 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in [C:\wamp64\www\cake\app\View\Users\index.ctp, line 4]
+2017-12-21 16:16:14 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'
+Request URL: /cake/users/index
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 16:16:15 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in [C:\wamp64\www\cake\app\View\Users\index.ctp, line 4]
+2017-12-21 16:16:15 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'
+Request URL: /cake/users/index
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 16:16:15 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in [C:\wamp64\www\cake\app\View\Users\index.ctp, line 4]
+2017-12-21 16:16:15 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'
+Request URL: /cake/users/index
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 16:17:47 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in [C:\wamp64\www\cake\app\View\Users\index.ctp, line 4]
+2017-12-21 16:17:47 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'
+Request URL: /cake/users/index
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 16:17:48 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in [C:\wamp64\www\cake\app\View\Users\index.ctp, line 4]
+2017-12-21 16:17:48 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'
+Request URL: /cake/users/index
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 16:17:49 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in [C:\wamp64\www\cake\app\View\Users\index.ctp, line 4]
+2017-12-21 16:17:49 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'
+Request URL: /cake/users/index
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 16:17:49 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in [C:\wamp64\www\cake\app\View\Users\index.ctp, line 4]
+2017-12-21 16:17:49 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'
+Request URL: /cake/users/index
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 16:17:50 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in [C:\wamp64\www\cake\app\View\Users\index.ctp, line 4]
+2017-12-21 16:17:50 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'
+Request URL: /cake/users/index
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 16:27:34 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in [C:\wamp64\www\cake\app\View\Users\index.ctp, line 4]
+2017-12-21 16:27:34 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'
+Request URL: /cake/users/index
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-21 16:40:34 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in [C:\wamp64\www\cake\app\View\Users\index.ctp, line 4]
+2017-12-21 16:40:34 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'
+Request URL: /cake/users/index
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 4, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-22 10:36:06 Error: [MissingViewException] View file "Pages\users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\users\\index.ctp',
+)
+Request URL: /cake/pages/users/index
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\View\View.php(470): View->_getViewFileName('users/index')
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(963): View->render('users/index', NULL)
+#2 C:\wamp64\www\cake\app\Controller\PagesController.php(72): Controller->render('users/index')
+#3 [internal function]: PagesController->display('users', 'index')
+#4 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2017-12-22 10:37:48 Error: [MissingViewException] View file "Pages\users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\users\\index.ctp',
+)
+Request URL: /cake/pages/users/index
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\View\View.php(470): View->_getViewFileName('users/index')
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(963): View->render('users/index', NULL)
+#2 C:\wamp64\www\cake\app\Controller\PagesController.php(72): Controller->render('users/index')
+#3 [internal function]: PagesController->display('users', 'index')
+#4 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2017-12-22 10:37:49 Error: [MissingViewException] View file "Pages\users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\users\\index.ctp',
+)
+Request URL: /cake/pages/users/index
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\View\View.php(470): View->_getViewFileName('users/index')
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(963): View->render('users/index', NULL)
+#2 C:\wamp64\www\cake\app\Controller\PagesController.php(72): Controller->render('users/index')
+#3 [internal function]: PagesController->display('users', 'index')
+#4 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2017-12-22 10:38:02 Error: [MissingViewException] View file "Pages\Users\index.ctp.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\Users\\index.ctp.ctp',
+)
+Request URL: /cake/pages/Users/index.ctp
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\View\View.php(470): View->_getViewFileName('Users/index.ctp')
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(963): View->render('Users/index.ctp', NULL)
+#2 C:\wamp64\www\cake\app\Controller\PagesController.php(72): Controller->render('Users/index.ctp')
+#3 [internal function]: PagesController->display('Users', 'index.ctp')
+#4 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2017-12-22 10:45:47 Error: [MissingViewException] View file "Pages\logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\logout.ctp',
+)
+Request URL: /cake/pages/logout
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\View\View.php(470): View->_getViewFileName('logout')
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(963): View->render('logout', NULL)
+#2 C:\wamp64\www\cake\app\Controller\PagesController.php(72): Controller->render('logout')
+#3 [internal function]: PagesController->display('logout')
+#4 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2017-12-22 10:46:50 Error: [MissingViewException] View file "Pages\logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\logout.ctp',
+)
+Request URL: /cake/pages/logout
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\View\View.php(470): View->_getViewFileName('logout')
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(963): View->render('logout', NULL)
+#2 C:\wamp64\www\cake\app\Controller\PagesController.php(72): Controller->render('logout')
+#3 [internal function]: PagesController->display('logout')
+#4 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2017-12-22 12:59:48 Error: [MissingActionException] Action UsersController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'home',
+)
+Request URL: /cake/users/home
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\Scaffold.php(152): Scaffold->_scaffold(Object(CakeRequest))
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(536): Scaffold->__construct(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(495): Controller->_getScaffold(Object(CakeRequest))
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2017-12-22 14:34:23 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'group_id' doesn't have a default value
+Request URL: /cake/users/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(472): PDOStatement->execute(Array)
+#1 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(438): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(1092): DboSource->execute('INSERT INTO `ca...')
+#3 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1940): DboSource->create(Object(User), Array, Array)
+#4 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1758): Model->_doSave(Array, Array)
+#5 C:\wamp64\www\cake\app\Controller\UsersController.php(54): Model->save(Array)
+#6 [internal function]: UsersController->add()
+#7 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-12-22 14:41:42 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'group_id' doesn't have a default value
+Request URL: /cake/users/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(472): PDOStatement->execute(Array)
+#1 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(438): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(1092): DboSource->execute('INSERT INTO `ca...')
+#3 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1940): DboSource->create(Object(User), Array, Array)
+#4 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1758): Model->_doSave(Array, Array)
+#5 C:\wamp64\www\cake\app\Controller\UsersController.php(54): Model->save(Array)
+#6 [internal function]: UsersController->add()
+#7 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-12-22 14:41:44 Error: Fatal Error (1): Call to a member function input() on null in [C:\wamp64\www\cake\app\View\Users\add.ctp, line 9]
+2017-12-22 14:41:44 Error: [FatalErrorException] Call to a member function input() on null
+Request URL: /cake/users/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 9, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 9, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-22 14:47:50 Error: Fatal Error (1): Call to a member function input() on null in [C:\wamp64\www\cake\app\View\Users\add.ctp, line 9]
+2017-12-22 14:47:50 Error: [FatalErrorException] Call to a member function input() on null
+Request URL: /cake/users/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 9, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 9, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-22 14:50:02 Error: Fatal Error (1): Call to a member function input() on null in [C:\wamp64\www\cake\app\View\Users\add.ctp, line 9]
+2017-12-22 14:50:02 Error: [FatalErrorException] Call to a member function input() on null
+Request URL: /cake/users/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 9, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 9, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-22 14:50:03 Error: Fatal Error (1): Call to a member function input() on null in [C:\wamp64\www\cake\app\View\Users\add.ctp, line 9]
+2017-12-22 14:50:03 Error: [FatalErrorException] Call to a member function input() on null
+Request URL: /cake/users/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 9, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 9, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-22 14:50:03 Error: Fatal Error (1): Call to a member function input() on null in [C:\wamp64\www\cake\app\View\Users\add.ctp, line 9]
+2017-12-22 14:50:03 Error: [FatalErrorException] Call to a member function input() on null
+Request URL: /cake/users/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 9, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 9, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-22 14:50:04 Error: Fatal Error (1): Call to a member function input() on null in [C:\wamp64\www\cake\app\View\Users\add.ctp, line 9]
+2017-12-22 14:50:04 Error: [FatalErrorException] Call to a member function input() on null
+Request URL: /cake/users/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 9, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 9, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-22 14:50:04 Error: Fatal Error (1): Call to a member function input() on null in [C:\wamp64\www\cake\app\View\Users\add.ctp, line 9]
+2017-12-22 14:50:04 Error: [FatalErrorException] Call to a member function input() on null
+Request URL: /cake/users/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 9, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 9, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-22 14:57:09 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'group_id' doesn't have a default value
+Request URL: /cake/users/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(472): PDOStatement->execute(Array)
+#1 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(438): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(1092): DboSource->execute('INSERT INTO `ca...')
+#3 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1940): DboSource->create(Object(User), Array, Array)
+#4 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1758): Model->_doSave(Array, Array)
+#5 C:\wamp64\www\cake\app\Controller\UsersController.php(54): Model->save(Array)
+#6 [internal function]: UsersController->add()
+#7 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-12-22 15:06:39 Error: [MissingControllerException] Controller class GrupsController could not be found.
+Exception Attributes: array (
+  'class' => 'GrupsController',
+  'plugin' => NULL,
+)
+Request URL: /cake/grups
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-12-22 15:28:25 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [C:\wamp64\www\cake\app\Controller\GroupsController.php, line 35]
+2017-12-22 15:28:25 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /cake/groups
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 35, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 35, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-22 15:38:19 Error: [MissingComponentException] Component class AclExtrasComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AclExtrasComponent',
+  'plugin' => false,
+)
+Request URL: /cake/
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('AclExtras', Array)
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(644): ComponentCollection->init(Object(PagesController))
+#2 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-12-22 15:56:37 Error: [NotFoundException] Invalid User
+Request URL: /cake/users/view
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\Scaffold.php(389): Scaffold->_scaffoldView(Object(CakeRequest))
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Scaffold.php(152): Scaffold->_scaffold(Object(CakeRequest))
+#2 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(536): Scaffold->__construct(Object(UsersController), Object(CakeRequest))
+#3 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(495): Controller->_getScaffold(Object(CakeRequest))
+#4 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#5 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2017-12-22 15:56:59 Error: [NotFoundException] Invalid User
+Request URL: /cake/users/view
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\Scaffold.php(389): Scaffold->_scaffoldView(Object(CakeRequest))
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Scaffold.php(152): Scaffold->_scaffold(Object(CakeRequest))
+#2 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(536): Scaffold->__construct(Object(UsersController), Object(CakeRequest))
+#3 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(495): Controller->_getScaffold(Object(CakeRequest))
+#4 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#5 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2017-12-22 15:57:08 Error: [NotFoundException] Invalid User
+Request URL: /cake/users/edit/1
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\Scaffold.php(397): Scaffold->_scaffoldSave(Object(CakeRequest), 'edit')
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Scaffold.php(152): Scaffold->_scaffold(Object(CakeRequest))
+#2 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(536): Scaffold->__construct(Object(UsersController), Object(CakeRequest))
+#3 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(495): Controller->_getScaffold(Object(CakeRequest))
+#4 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#5 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2017-12-22 16:01:19 Error: [NotFoundException] Invalid User
+Request URL: /cake/users/view/1
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Controller\Scaffold.php(389): Scaffold->_scaffoldView(Object(CakeRequest))
+#1 C:\wamp64\www\cake\lib\Cake\Controller\Scaffold.php(152): Scaffold->_scaffold(Object(CakeRequest))
+#2 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(536): Scaffold->__construct(Object(UsersController), Object(CakeRequest))
+#3 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(495): Controller->_getScaffold(Object(CakeRequest))
+#4 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#5 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2017-12-22 16:11:53 Error: Fatal Error (4): syntax error, unexpected ':' in [C:\wamp64\www\cake\app\Controller\UsersController.php, line 42]
+2017-12-22 16:11:53 Error: [FatalErrorException] syntax error, unexpected ':'
+Request URL: /cake/users
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 42, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 42, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-22 16:23:51 Error: Fatal Error (1): Call to undefined method AuthComponent::initDB() in [C:\wamp64\www\cake\app\Controller\UsersController.php, line 22]
+2017-12-22 16:23:51 Error: [FatalErrorException] Call to undefined method AuthComponent::initDB()
+Request URL: /cake/users/index
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\wamp64\\www\\c...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\wamp64\\www\\c...', 22, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\wamp64\\www\\c...', 22, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-22 16:58:31 Error: [MissingControllerException] Controller class .Controller could not be found.
+Exception Attributes: array (
+  'class' => '.Controller',
+  'plugin' => NULL,
+)
+Request URL: /cake/./
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-12-22 16:58:51 Error: [MissingTableException] Table aros for model Aro was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'aros',
+  'class' => 'Aro',
+  'ds' => 'default',
+)
+Request URL: /cake/users/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Model\Model.php(3667): Model->setSource('aros')
+#1 C:\wamp64\www\cake\lib\Cake\Model\AclNode.php(64): Model->getDataSource()
+#2 C:\wamp64\www\cake\lib\Cake\Model\Behavior\AclBehavior.php(90): AclNode->node(Array)
+#3 C:\wamp64\www\cake\lib\Cake\Model\Behavior\AclBehavior.php(109): AclBehavior->node(Object(User), Array, 'Aro')
+#4 [internal function]: AclBehavior->afterSave(Object(User), true, Array)
+#5 C:\wamp64\www\cake\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 C:\wamp64\www\cake\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#8 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1968): CakeEventManager->dispatch(Object(CakeEvent))
+#9 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1758): Model->_doSave(Array, Array)
+#10 C:\wamp64\www\cake\app\Controller\UsersController.php(85): Model->save(Array)
+#11 [internal function]: UsersController->add()
+#12 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#13 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#14 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2017-12-28 07:59:19 Error: [MissingTableException] Table aros for model Aro was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'aros',
+  'class' => 'Aro',
+  'ds' => 'default',
+)
+Request URL: /cake/users/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Model\Model.php(3667): Model->setSource('aros')
+#1 C:\wamp64\www\cake\lib\Cake\Model\AclNode.php(64): Model->getDataSource()
+#2 C:\wamp64\www\cake\lib\Cake\Model\Behavior\AclBehavior.php(90): AclNode->node(Array)
+#3 C:\wamp64\www\cake\lib\Cake\Model\Behavior\AclBehavior.php(109): AclBehavior->node(Object(User), Array, 'Aro')
+#4 [internal function]: AclBehavior->afterSave(Object(User), true, Array)
+#5 C:\wamp64\www\cake\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 C:\wamp64\www\cake\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#8 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1968): CakeEventManager->dispatch(Object(CakeEvent))
+#9 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1758): Model->_doSave(Array, Array)
+#10 C:\wamp64\www\cake\app\Controller\UsersController.php(85): Model->save(Array)
+#11 [internal function]: UsersController->add()
+#12 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#13 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#14 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2017-12-28 08:21:21 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`cake`.`users`, CONSTRAINT `fk_groups_id` FOREIGN KEY (`group_id`) REFERENCES `groups` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Request URL: /cake/users/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(472): PDOStatement->execute(Array)
+#1 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(438): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(1092): DboSource->execute('INSERT INTO `ca...')
+#3 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1940): DboSource->create(Object(User), Array, Array)
+#4 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1758): Model->_doSave(Array, Array)
+#5 C:\wamp64\www\cake\app\Controller\UsersController.php(85): Model->save(Array)
+#6 [internal function]: UsersController->add()
+#7 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-12-28 08:22:14 Error: [MissingTableException] Table aros for model Aro was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'aros',
+  'class' => 'Aro',
+  'ds' => 'default',
+)
+Request URL: /cake/users/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Model\Model.php(3667): Model->setSource('aros')
+#1 C:\wamp64\www\cake\lib\Cake\Model\AclNode.php(64): Model->getDataSource()
+#2 C:\wamp64\www\cake\lib\Cake\Model\Behavior\AclBehavior.php(90): AclNode->node(Array)
+#3 C:\wamp64\www\cake\lib\Cake\Model\Behavior\AclBehavior.php(109): AclBehavior->node(Object(User), Array, 'Aro')
+#4 [internal function]: AclBehavior->afterSave(Object(User), true, Array)
+#5 C:\wamp64\www\cake\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 C:\wamp64\www\cake\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#8 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1968): CakeEventManager->dispatch(Object(CakeEvent))
+#9 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1758): Model->_doSave(Array, Array)
+#10 C:\wamp64\www\cake\app\Controller\UsersController.php(85): Model->save(Array)
+#11 [internal function]: UsersController->add()
+#12 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#13 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#14 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2017-12-28 09:04:28 Error: Fatal Error (64): Cannot redeclare AppController::beforeFilter() in [C:\wamp64\www\cake\app\Controller\AppController.php, line 64]
+2017-12-28 09:04:28 Error: [FatalErrorException] Cannot redeclare AppController::beforeFilter()
+Request URL: /cake/groups/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\\wamp64\\www\\c...', 64)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\\wamp64\\www\\c...', 64, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\\wamp64\\www\\c...', 64, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-28 09:17:36 Error: [MissingActionException] Action UsersController::edit() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'edit',
+)
+Request URL: /cake/users/edit/1
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-12-28 09:43:27 Error: [MissingControllerException] Controller class InitdbController could not be found.
+Exception Attributes: array (
+  'class' => 'InitdbController',
+  'plugin' => NULL,
+)
+Request URL: /cake/initdb
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-12-28 09:43:34 Error: [MissingControllerException] Controller class InitDBController could not be found.
+Exception Attributes: array (
+  'class' => 'InitDBController',
+  'plugin' => NULL,
+)
+Request URL: /cake/initDB
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-12-28 09:43:38 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.groups_id' in 'on clause'
+Request URL: /cake/users/index
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(472): PDOStatement->execute(Array)
+#1 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(438): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(675): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(1186): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\wamp64\www\cake\lib\Cake\Model\Model.php(3038): DboSource->read(Object(User), Array)
+#5 C:\wamp64\www\cake\lib\Cake\Model\Model.php(3010): Model->_readDataSource('all', Array)
+#6 C:\wamp64\www\cake\lib\Cake\Controller\Component\PaginatorComponent.php(212): Model->find('all', Array)
+#7 C:\wamp64\www\cake\app\Controller\UsersController.php(64): PaginatorComponent->paginate()
+#8 [internal function]: UsersController->index()
+#9 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2017-12-28 09:43:43 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.groups_id' in 'on clause'
+Request URL: /cake/users/index
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(472): PDOStatement->execute(Array)
+#1 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(438): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(675): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(1186): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\wamp64\www\cake\lib\Cake\Model\Model.php(3038): DboSource->read(Object(User), Array)
+#5 C:\wamp64\www\cake\lib\Cake\Model\Model.php(3010): Model->_readDataSource('all', Array)
+#6 C:\wamp64\www\cake\lib\Cake\Controller\Component\PaginatorComponent.php(212): Model->find('all', Array)
+#7 C:\wamp64\www\cake\app\Controller\UsersController.php(64): PaginatorComponent->paginate()
+#8 [internal function]: UsersController->index()
+#9 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2017-12-28 09:44:03 Error: [MissingActionException] Action UsersController::edit() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'edit',
+)
+Request URL: /cake/users/edit/1
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-12-28 09:44:08 Error: [MissingActionException] Action UsersController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'view',
+)
+Request URL: /cake/users/view/1
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-12-28 09:44:27 Error: [MissingActionException] Action UsersController::delete() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'delete',
+)
+Request URL: /cake/users/delete/4
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-12-28 09:52:14 Error: [MissingActionException] Action UsersController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'view',
+)
+Request URL: /cake/users/view/4
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-12-28 10:07:44 Error: [MissingActionException] Action UsersController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'view',
+)
+Request URL: /cake/users/view/1
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-12-28 10:11:48 Error: [MissingActionException] Action UsersController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'view',
+)
+Request URL: /cake/users/view/1
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-12-28 10:12:10 Error: [MissingActionException] Action UsersController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'view',
+)
+Request URL: /cake/users/view/3
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-12-28 10:12:13 Error: [MissingActionException] Action UsersController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'view',
+)
+Request URL: /cake/users/view/1
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-12-28 10:19:02 Error: [MissingActionException] Action UsersController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'view',
+)
+Request URL: /cake/users/view/2
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-12-28 11:18:54 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\wamp64\www\cake\app\Model\User.php, line 94]
+2017-12-28 11:18:54 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /cake/users/save_edit/1
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 94)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 94, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 94, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-28 11:27:09 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp64\www\cake\app\View\Users\save_edit.ctp, line 11]
+2017-12-28 11:27:09 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /cake/users/save_edit/1
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 11, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 11, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-28 11:31:47 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [C:\wamp64\www\cake\app\Controller\UsersController.php, line 114]
+2017-12-28 11:31:47 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /cake/users/save_edit/1
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 114)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 114, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 114, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-28 11:32:17 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [C:\wamp64\www\cake\app\Controller\UsersController.php, line 114]
+2017-12-28 11:32:17 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /cake/users/save_edit/1
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 114)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 114, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 114, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-28 11:32:39 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [C:\wamp64\www\cake\app\Controller\UsersController.php, line 114]
+2017-12-28 11:32:39 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /cake/users
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 114)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 114, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 114, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-28 11:32:46 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [C:\wamp64\www\cake\app\Controller\UsersController.php, line 114]
+2017-12-28 11:32:46 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /cake/users/index
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 114)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 114, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 114, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-28 11:33:19 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [C:\wamp64\www\cake\app\Controller\UsersController.php, line 114]
+2017-12-28 11:33:19 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /cake/users/index
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 114)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 114, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 114, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-28 12:26:27 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp64\www\cake\app\View\Users\save_edit.ctp, line 12]
+2017-12-28 12:26:27 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /cake/users/save_edit
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 12, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 12, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-28 12:49:25 Error: Fatal Error (4): syntax error, unexpected '1' (T_LNUMBER), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\wamp64\www\cake\app\Controller\UsersController.php, line 115]
+2017-12-28 12:49:25 Error: [FatalErrorException] syntax error, unexpected '1' (T_LNUMBER), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /cake/users
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 115)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 115, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 115, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-28 12:49:42 Error: Fatal Error (4): syntax error, unexpected ''1'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\wamp64\www\cake\app\Controller\UsersController.php, line 115]
+2017-12-28 12:49:42 Error: [FatalErrorException] syntax error, unexpected ''1'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /cake/users
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 115)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 115, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 115, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-28 13:12:59 Error: Fatal Error (4): syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\wamp64\www\cake\app\Controller\UsersController.php, line 116]
+2017-12-28 13:12:59 Error: [FatalErrorException] syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /cake/users
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 116)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 116, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 116, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-28 13:16:13 Error: Fatal Error (4): syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\wamp64\www\cake\app\Controller\UsersController.php, line 116]
+2017-12-28 13:16:13 Error: [FatalErrorException] syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /cake/users
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 116)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 116, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 116, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-28 13:40:41 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\wamp64\www\cake\app\Controller\UsersController.php, line 116]
+2017-12-28 13:40:41 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /cake/users/save_edit
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 116)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 116, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 116, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-28 13:40:56 Error: Fatal Error (4): syntax error, unexpected '0' (T_LNUMBER), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\wamp64\www\cake\app\Controller\UsersController.php, line 116]
+2017-12-28 13:40:56 Error: [FatalErrorException] syntax error, unexpected '0' (T_LNUMBER), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /cake/users/save_edit
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 116)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 116, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 116, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-28 13:41:38 Error: Fatal Error (4): syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\wamp64\www\cake\app\Controller\UsersController.php, line 116]
+2017-12-28 13:41:38 Error: [FatalErrorException] syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /cake/users/save_edit
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 116)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 116, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 116, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-12-28 13:54:47 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'group_id' doesn't have a default value
+Request URL: /cake/users/save_edit
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(472): PDOStatement->execute(Array)
+#1 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(438): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(1092): DboSource->execute('INSERT INTO `ca...')
+#3 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1940): DboSource->create(Object(User), Array, Array)
+#4 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1758): Model->_doSave(Array, Array)
+#5 C:\wamp64\www\cake\app\Controller\UsersController.php(120): Model->save(Array)
+#6 [internal function]: UsersController->save_edit()
+#7 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-12-28 14:40:55 Error: [MissingActionException] Action UsersController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'view',
+)
+Request URL: /cake/users/view/1
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-12-28 14:42:12 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.' in 'where clause'
+Request URL: /cake/users/view/1
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(472): PDOStatement->execute(Array)
+#1 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(438): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(675): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(1186): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\wamp64\www\cake\lib\Cake\Model\Model.php(3038): DboSource->read(Object(User), Array)
+#5 C:\wamp64\www\cake\lib\Cake\Model\Model.php(3010): Model->_readDataSource('first', Array)
+#6 C:\wamp64\www\cake\app\Controller\UsersController.php(152): Model->find('first', Array)
+#7 [internal function]: UsersController->view('1')
+#8 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-12-28 14:59:25 Error: [MissingTableException] Table aros for model Aro was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'aros',
+  'class' => 'Aro',
+  'ds' => 'default',
+)
+Request URL: /cake/groups/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Model\Model.php(3667): Model->setSource('aros')
+#1 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1394): Model->getDataSource()
+#2 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1582): Model->schema()
+#3 C:\wamp64\www\cake\lib\Cake\Model\Behavior\AclBehavior.php(120): Model->create()
+#4 [internal function]: AclBehavior->afterSave(Object(Group), true, Array)
+#5 C:\wamp64\www\cake\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 C:\wamp64\www\cake\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#8 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1968): CakeEventManager->dispatch(Object(CakeEvent))
+#9 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1758): Model->_doSave(Array, Array)
+#10 C:\wamp64\www\cake\app\Controller\GroupsController.php(29): Model->save(Array)
+#11 [internal function]: GroupsController->add()
+#12 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(GroupsController), Array)
+#13 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#14 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(GroupsController), Object(CakeRequest))
+#15 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2017-12-28 15:02:42 Error: [MissingTableException] Table aros for model Aro was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'aros',
+  'class' => 'Aro',
+  'ds' => 'default',
+)
+Request URL: /cake/users/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Model\Model.php(3667): Model->setSource('aros')
+#1 C:\wamp64\www\cake\lib\Cake\Model\AclNode.php(64): Model->getDataSource()
+#2 C:\wamp64\www\cake\lib\Cake\Model\Behavior\AclBehavior.php(90): AclNode->node(Array)
+#3 C:\wamp64\www\cake\lib\Cake\Model\Behavior\AclBehavior.php(109): AclBehavior->node(Object(User), Array, 'Aro')
+#4 [internal function]: AclBehavior->afterSave(Object(User), true, Array)
+#5 C:\wamp64\www\cake\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 C:\wamp64\www\cake\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#8 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1968): CakeEventManager->dispatch(Object(CakeEvent))
+#9 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1758): Model->_doSave(Array, Array)
+#10 C:\wamp64\www\cake\app\Controller\UsersController.php(78): Model->save(Array)
+#11 [internal function]: UsersController->add()
+#12 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#13 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#14 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2017-12-28 15:04:55 Error: [MissingTableException] Table aros for model Aro was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'aros',
+  'class' => 'Aro',
+  'ds' => 'default',
+)
+Request URL: /cake/groups/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Model\Model.php(3667): Model->setSource('aros')
+#1 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1394): Model->getDataSource()
+#2 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1582): Model->schema()
+#3 C:\wamp64\www\cake\lib\Cake\Model\Behavior\AclBehavior.php(120): Model->create()
+#4 [internal function]: AclBehavior->afterSave(Object(Group), true, Array)
+#5 C:\wamp64\www\cake\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 C:\wamp64\www\cake\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#8 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1968): CakeEventManager->dispatch(Object(CakeEvent))
+#9 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1758): Model->_doSave(Array, Array)
+#10 C:\wamp64\www\cake\app\Controller\GroupsController.php(29): Model->save(Array)
+#11 [internal function]: GroupsController->add()
+#12 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(GroupsController), Array)
+#13 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#14 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(GroupsController), Object(CakeRequest))
+#15 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2017-12-28 15:05:17 Error: [MissingTableException] Table aros for model Aro was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'aros',
+  'class' => 'Aro',
+  'ds' => 'default',
+)
+Request URL: /cake/groups/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Model\Model.php(3667): Model->setSource('aros')
+#1 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1394): Model->getDataSource()
+#2 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1582): Model->schema()
+#3 C:\wamp64\www\cake\lib\Cake\Model\Behavior\AclBehavior.php(120): Model->create()
+#4 [internal function]: AclBehavior->afterSave(Object(Group), true, Array)
+#5 C:\wamp64\www\cake\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 C:\wamp64\www\cake\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#8 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1968): CakeEventManager->dispatch(Object(CakeEvent))
+#9 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1758): Model->_doSave(Array, Array)
+#10 C:\wamp64\www\cake\app\Controller\GroupsController.php(29): Model->save(Array)
+#11 [internal function]: GroupsController->add()
+#12 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(GroupsController), Array)
+#13 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#14 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(GroupsController), Object(CakeRequest))
+#15 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2017-12-28 15:09:32 Error: [MissingTableException] Table aros for model Aro was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'aros',
+  'class' => 'Aro',
+  'ds' => 'default',
+)
+Request URL: /cake/groups/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Model\Model.php(3667): Model->setSource('aros')
+#1 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1394): Model->getDataSource()
+#2 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1582): Model->schema()
+#3 C:\wamp64\www\cake\lib\Cake\Model\Behavior\AclBehavior.php(120): Model->create()
+#4 [internal function]: AclBehavior->afterSave(Object(Group), true, Array)
+#5 C:\wamp64\www\cake\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 C:\wamp64\www\cake\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#8 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1968): CakeEventManager->dispatch(Object(CakeEvent))
+#9 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1758): Model->_doSave(Array, Array)
+#10 C:\wamp64\www\cake\app\Controller\GroupsController.php(29): Model->save(Array)
+#11 [internal function]: GroupsController->add()
+#12 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(GroupsController), Array)
+#13 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#14 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(GroupsController), Object(CakeRequest))
+#15 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2017-12-28 15:13:07 Error: [MissingActionException] Action UsersController::initdb() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'initdb',
+)
+Request URL: /cake/users/initdb
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-12-28 15:47:57 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+Request URL: /cake/MeasurementUnits/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(472): PDOStatement->execute(Array)
+#1 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(438): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(1092): DboSource->execute('INSERT INTO `ca...')
+#3 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1940): DboSource->create(Object(MeasurementUnit), Array, Array)
+#4 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1758): Model->_doSave(Array, Array)
+#5 C:\wamp64\www\cake\app\Controller\MeasurementUnitsController.php(53): Model->save(Array)
+#6 [internal function]: MeasurementUnitsController->add()
+#7 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(MeasurementUnitsController), Array)
+#8 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeasurementUnitsController), Object(CakeRequest))
+#10 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-12-28 15:55:35 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '11' for key 'PRIMARY'
+Request URL: /cake/MeasurementUnits/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(472): PDOStatement->execute(Array)
+#1 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(438): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(1092): DboSource->execute('INSERT INTO `ca...')
+#3 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1940): DboSource->create(Object(MeasurementUnit), Array, Array)
+#4 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1758): Model->_doSave(Array, Array)
+#5 C:\wamp64\www\cake\app\Controller\MeasurementUnitsController.php(53): Model->save(Array)
+#6 [internal function]: MeasurementUnitsController->add()
+#7 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(MeasurementUnitsController), Array)
+#8 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MeasurementUnitsController), Object(CakeRequest))
+#10 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}

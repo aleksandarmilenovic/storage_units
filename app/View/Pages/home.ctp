@@ -18,5 +18,6 @@ echo $this->Html->link('Register',array('controller'=>'users','action'=>'add'));
 	<ul>
 		<?php echo $this->Html->link('USERS','/users/index');?>
 		<?php echo $this->Html->link('PRIVILEGUES','/groups/index');?>
+		<?php echo $this->Html->link('Mere', '/MeasurementUnits/index');?>
 	</ul>
 </div>
