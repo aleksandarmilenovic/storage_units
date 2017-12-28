@@ -13,7 +13,7 @@ class User extends AppModel {
  */
 	//public $displayField = 'username';
 
-    public $belongsTo = array('Group');
+ 	public $belongsTo = array('Group');
     public $actsAs = array('Acl' => array('type' => 'requester'));
 
     public function parentNode() {
@@ -29,7 +29,7 @@ class User extends AppModel {
             return null;
         }
         return array('Group' => array('id' => $groupId));
-    }//~!
+    }
 
 /**
  * Validation rules
@@ -37,6 +37,16 @@ class User extends AppModel {
  * @var array
  */
 	public $validate = array(
+		'id' => array(
+			'numeric' => array(
+				'rule' => array('numeric'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+			),
 		'username' => array(
 			'alphaNumeric' => array(
 				'rule' => array('alphaNumeric'),

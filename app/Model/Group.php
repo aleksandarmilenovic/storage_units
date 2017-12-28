@@ -5,23 +5,13 @@ App::uses('AppModel', 'Model');
  *
  */
 class Group extends AppModel {
-    public $actsAs = array('Acl' => array('type' => 'requester'));
+
+
+  public $actsAs = array('Acl' => array('type' => 'requester'));
 
     public function parentNode() {
         return null;
     }
-/**
- * Display field
- *
- * @var string
- */
-	public $displayField = 'name';
-
-/**
- * Validation rules
- *
- * @var array
- */
 	public $validate = array(
 		'id' => array(
 			'numeric' => array(

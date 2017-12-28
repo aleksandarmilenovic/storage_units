@@ -5,8 +5,11 @@
 if(AuthComponent::user()){
 	echo $this->Html->link('Logout',array('controller'=>'users','action'=>'logout'));
 }else {
-	echo $this->Html->link('Login',array('controller'=>'users','action'=>'logout'));
+	echo $this->Html->link('Login',array('controller'=>'users','action'=>'login'));
 }
+echo "<br>";
+
+echo $this->Html->link('Register',array('controller'=>'users','action'=>'add'));
 
 ?>
 

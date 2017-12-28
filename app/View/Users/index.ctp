@@ -29,6 +29,7 @@
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $user['User']['id'])); ?>
 			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $user['User']['id'])); ?>
 			<?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $user['User']['id']), array('confirm' => __('Are you sure you want to delete # %s?', $user['User']['id']))); ?>
+			<?php echo $this->Html->link('USERS','/users/save_edit'); ?>
 		</td>
 	</tr>
 <?php endforeach; ?>
@@ -54,5 +55,6 @@
 		<li><?php echo $this->Html->link(__('New User'), array('action' => 'add')); ?></li>
 		<li><?php echo $this->Html->link(__('Login'), array('action' => 'login')); ?></li>
 		<li><?php echo $this->Html->link(__('Logout'), array('action' => 'logout')); ?></li>
+		
 	</ul>
 </div>
