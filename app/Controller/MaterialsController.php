@@ -5,6 +5,8 @@ App::uses('AppController', 'Controller');
  *
  * @property Material $Material
  * @property PaginatorComponent $Paginator
+ * @property SessionComponent $Session
+ * @property FlashComponent $Flash
  */
 class MaterialsController extends AppController {
 
@@ -13,7 +15,7 @@ class MaterialsController extends AppController {
  *
  * @var array
  */
-	public $components = array('Paginator');
+	public $components = array('Paginator', 'Session', 'Flash');
 
 /**
  * index method
@@ -55,8 +57,11 @@ class MaterialsController extends AppController {
 				$this->Flash->error(__('The material could not be saved. Please, try again.'));
 			}
 		}
+		$measuementUnits = $this->Material->Item->MeasurementUnit->find('list');
+		$itemTypes = $this->Material->Item->ItemType->find('list');
+		$ratingMaterial = $this->Material->rating_material;
 		$items = $this->Material->Item->find('list');
-		$this->set(compact('items'));
+		$this->set(compact('items', 'ratingMaterial', 'measuementUnits', 'itemTypes'));
 	}
 
 /**

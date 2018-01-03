@@ -22,12 +22,14 @@ public function initDB() {
     $this->Acl->allow($group, 'controllers');
     $this->Acl->allow($group, 'controllers/Users/index');
      $this->Acl->allow($group, 'controllers/Users/edit');
+     $this->Acl->allow($group, 'controllers/Users/logout');
 
     // allow managers to posts and widgets
     $group->id = 2;
     $this->Acl->deny($group, 'controllers');
     $this->Acl->allow($group, 'controllers/Users/add');
     $this->Acl->allow($group, 'controllers/Users/index');
+    $this->Acl->allow($group, 'controllers/Users/logout');
 
 
     // allow users to only add and edit on posts and widgets
@@ -38,9 +40,11 @@ public function initDB() {
     // $this->Acl->allow($group, 'controllers/Widgets/add');
     // $this->Acl->allow($group, 'controllers/Widgets/edit');
 
+
     // allow basic users to log out
     $this->Acl->allow($group, 'controllers/Users/index');
     $this->Acl->allow($group, 'controllers/Users/logout');
+
 
     // we add an exit to avoid an ugly "missing views" error message
     echo "all done";

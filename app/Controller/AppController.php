@@ -19,10 +19,10 @@ public $components = array(
     );
     public $helpers = array('Html', 'Form', 'Session');
 
-public function beforeFilter() {
-    parent::beforeFilter();
-    $this->Auth->allow();
-}
+// public function beforeFilter() {
+//     parent::beforeFilter();
+//     $this->Auth->allow();
+// }
 
 
 }

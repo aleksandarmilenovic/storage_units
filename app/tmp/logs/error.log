@@ -2120,3 +2120,931 @@ Request URL: /cake/items
 Stack Trace:
 #0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2017-12-28 16:28:28 Error: [MissingControllerException] Controller class ItemsController could not be found.
+Exception Attributes: array (
+  'class' => 'ItemsController',
+  'plugin' => NULL,
+)
+Request URL: /cake/items
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-12-28 16:28:30 Error: [MissingControllerException] Controller class ItemsController could not be found.
+Exception Attributes: array (
+  'class' => 'ItemsController',
+  'plugin' => NULL,
+)
+Request URL: /cake/items/add
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-12-28 16:31:01 Error: [MissingControllerException] Controller class ItemsController could not be found.
+Exception Attributes: array (
+  'class' => 'ItemsController',
+  'plugin' => NULL,
+)
+Request URL: /cake/items
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 09:30:26 Error: [MissingControllerException] Controller class ItemtypeController could not be found.
+Exception Attributes: array (
+  'class' => 'ItemtypeController',
+  'plugin' => NULL,
+)
+Request URL: /cake/itemtype
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 09:30:34 Error: [MissingControllerException] Controller class ItemTypeController could not be found.
+Exception Attributes: array (
+  'class' => 'ItemTypeController',
+  'plugin' => NULL,
+)
+Request URL: /cake/itemType
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 09:33:16 Error: [MissingControllerException] Controller class ItrmtypesController could not be found.
+Exception Attributes: array (
+  'class' => 'ItrmtypesController',
+  'plugin' => NULL,
+)
+Request URL: /cake/itrmtypes
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 09:34:04 Error: [MissingControllerException] Controller class TemtypesController could not be found.
+Exception Attributes: array (
+  'class' => 'TemtypesController',
+  'plugin' => NULL,
+)
+Request URL: /cake/temtypes
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 10:03:43 Error: [MissingControllerException] Controller class ItemController could not be found.
+Exception Attributes: array (
+  'class' => 'ItemController',
+  'plugin' => NULL,
+)
+Request URL: /cake/item
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 10:04:39 Error: [MissingControllerException] Controller class PgkspsController could not be found.
+Exception Attributes: array (
+  'class' => 'PgkspsController',
+  'plugin' => NULL,
+)
+Request URL: /cake/pgksps
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 11:35:11 Error: [MissingControllerException] Controller class Syle.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Syle.cssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/syle.css
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 11:35:19 Error: [MissingControllerException] Controller class Syle.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Syle.cssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/syle.css
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 11:35:20 Error: [MissingControllerException] Controller class Syle.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Syle.cssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/syle.css
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 11:36:28 Error: [MissingControllerException] Controller class Syle.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Syle.cssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/syle.css
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 11:37:57 Error: [MissingControllerException] Controller class Syle.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Syle.cssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/syle.css
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 11:37:57 Error: [MissingControllerException] Controller class Script.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Script.jsController',
+  'plugin' => NULL,
+)
+Request URL: /cake/script.js
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 11:49:04 Error: [MissingControllerException] Controller class Syle.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Syle.cssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/syle.css
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 11:49:04 Error: [MissingControllerException] Controller class Script.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Script.jsController',
+  'plugin' => NULL,
+)
+Request URL: /cake/script.js
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 11:49:38 Error: [MissingControllerException] Controller class Script.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Script.jsController',
+  'plugin' => NULL,
+)
+Request URL: /cake/script.js
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 11:49:38 Error: [MissingControllerException] Controller class Syle.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Syle.cssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/syle.css
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:21:53 Error: [MissingControllerException] Controller class Syle.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Syle.cssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/syle.css
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:21:53 Error: [MissingControllerException] Controller class Script.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Script.jsController',
+  'plugin' => NULL,
+)
+Request URL: /cake/script.js
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:29:57 Error: [MissingControllerException] Controller class Syle.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Syle.cssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/syle.css
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:29:57 Error: [MissingControllerException] Controller class Script.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Script.jsController',
+  'plugin' => NULL,
+)
+Request URL: /cake/script.js
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:29:59 Error: [MissingControllerException] Controller class Syle.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Syle.cssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/syle.css
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:29:59 Error: [MissingControllerException] Controller class Script.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Script.jsController',
+  'plugin' => NULL,
+)
+Request URL: /cake/script.js
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:30:00 Error: [MissingControllerException] Controller class Syle.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Syle.cssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/syle.css
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:30:00 Error: [MissingControllerException] Controller class Script.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Script.jsController',
+  'plugin' => NULL,
+)
+Request URL: /cake/script.js
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:30:04 Error: [MissingControllerException] Controller class Script.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Script.jsController',
+  'plugin' => NULL,
+)
+Request URL: /cake/script.js
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:30:04 Error: [MissingControllerException] Controller class Syle.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Syle.cssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/syle.css
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:30:06 Error: [MissingActionException] Action ItemsController::logout() could not be found.
+Exception Attributes: array (
+  'controller' => 'ItemsController',
+  'action' => 'logout',
+)
+Request URL: /cake/items/logout
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest))
+#2 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-01-03 12:30:09 Error: [MissingActionException] Action ItemsController::logout() could not be found.
+Exception Attributes: array (
+  'controller' => 'ItemsController',
+  'action' => 'logout',
+)
+Request URL: /cake/items/logout
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest))
+#2 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-01-03 12:30:14 Error: [MissingControllerException] Controller class Syle.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Syle.cssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/syle.css
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:30:14 Error: [MissingControllerException] Controller class Script.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Script.jsController',
+  'plugin' => NULL,
+)
+Request URL: /cake/script.js
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:30:15 Error: [MissingControllerException] Controller class Syle.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Syle.cssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/syle.css
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:30:15 Error: [MissingControllerException] Controller class Script.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Script.jsController',
+  'plugin' => NULL,
+)
+Request URL: /cake/script.js
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:30:28 Error: [MissingControllerException] Controller class Syle.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Syle.cssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/syle.css
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:30:28 Error: [MissingControllerException] Controller class Script.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Script.jsController',
+  'plugin' => NULL,
+)
+Request URL: /cake/script.js
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:30:55 Error: [MissingControllerException] Controller class Script.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Script.jsController',
+  'plugin' => NULL,
+)
+Request URL: /cake/script.js
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:30:55 Error: [MissingControllerException] Controller class Syle.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Syle.cssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/syle.css
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:31:10 Error: [MissingControllerException] Controller class Script.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Script.jsController',
+  'plugin' => NULL,
+)
+Request URL: /cake/script.js
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:31:10 Error: [MissingControllerException] Controller class Syle.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Syle.cssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/syle.css
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:37:12 Error: [MissingControllerException] Controller class Syle.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Syle.cssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/syle.css
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:37:12 Error: [MissingControllerException] Controller class Script.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Script.jsController',
+  'plugin' => NULL,
+)
+Request URL: /cake/script.js
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:37:21 Error: [MissingControllerException] Controller class Script.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Script.jsController',
+  'plugin' => NULL,
+)
+Request URL: /cake/script.js
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:37:21 Error: [MissingControllerException] Controller class Syle.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Syle.cssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/syle.css
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:37:24 Error: [MissingControllerException] Controller class Syle.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Syle.cssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/syle.css
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:37:24 Error: [MissingControllerException] Controller class Script.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Script.jsController',
+  'plugin' => NULL,
+)
+Request URL: /cake/script.js
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:46:01 Error: [MissingControllerException] Controller class Script.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Script.jsController',
+  'plugin' => NULL,
+)
+Request URL: /cake/script.js
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:46:01 Error: [MissingControllerException] Controller class Syle.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Syle.cssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/syle.css
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:46:15 Error: Fatal Error (1): Call to a member function find() on null in [C:\wamp64\www\cake\app\Controller\ItemsController.php, line 61]
+2018-01-03 12:46:15 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cake/items/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-01-03 12:46:21 Error: Fatal Error (1): Call to a member function find() on null in [C:\wamp64\www\cake\app\Controller\ItemsController.php, line 61]
+2018-01-03 12:46:21 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cake/items/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-01-03 12:46:28 Error: [MissingControllerException] Controller class Script.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Script.jsController',
+  'plugin' => NULL,
+)
+Request URL: /cake/script.js
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:46:28 Error: [MissingControllerException] Controller class Syle.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Syle.cssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/syle.css
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:46:30 Error: [MissingControllerException] Controller class Syle.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Syle.cssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/syle.css
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:46:30 Error: [MissingControllerException] Controller class Script.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Script.jsController',
+  'plugin' => NULL,
+)
+Request URL: /cake/script.js
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:46:35 Error: Fatal Error (1): Call to a member function find() on null in [C:\wamp64\www\cake\app\Controller\ItemsController.php, line 61]
+2018-01-03 12:46:35 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cake/items/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-01-03 12:48:56 Error: Fatal Error (1): Call to a member function find() on null in [C:\wamp64\www\cake\app\Controller\ItemsController.php, line 61]
+2018-01-03 12:48:56 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cake/items/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-01-03 12:49:11 Error: Fatal Error (1): Call to a member function find() on null in [C:\wamp64\www\cake\app\Controller\ItemsController.php, line 61]
+2018-01-03 12:49:11 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cake/items/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-01-03 12:52:02 Error: [MissingControllerException] Controller class Syle.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Syle.cssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/syle.css
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:52:02 Error: [MissingControllerException] Controller class Script.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Script.jsController',
+  'plugin' => NULL,
+)
+Request URL: /cake/script.js
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:52:05 Error: Fatal Error (1): Call to a member function find() on null in [C:\wamp64\www\cake\app\Controller\ItemsController.php, line 61]
+2018-01-03 12:52:06 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cake/items/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-01-03 12:53:18 Error: [MissingControllerException] Controller class Script.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Script.jsController',
+  'plugin' => NULL,
+)
+Request URL: /cake/script.js
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:53:18 Error: [MissingControllerException] Controller class Syle.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Syle.cssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/syle.css
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:53:25 Error: Fatal Error (1): Call to a member function find() on null in [C:\wamp64\www\cake\app\Controller\ItemsController.php, line 61]
+2018-01-03 12:53:25 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cake/items/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-01-03 12:54:02 Error: Fatal Error (1): Call to a member function find() on null in [C:\wamp64\www\cake\app\Controller\ItemsController.php, line 61]
+2018-01-03 12:54:02 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cake/items/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-01-03 12:54:34 Error: [MissingControllerException] Controller class Syle.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Syle.cssController',
+  'plugin' => NULL,
+)
+Request URL: /cake/syle.css
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:54:34 Error: [MissingControllerException] Controller class Script.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Script.jsController',
+  'plugin' => NULL,
+)
+Request URL: /cake/script.js
+Stack Trace:
+#0 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-01-03 12:54:38 Error: Fatal Error (1): Call to a member function find() on null in [C:\wamp64\www\cake\app\Controller\ItemsController.php, line 61]
+2018-01-03 12:54:38 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cake/items/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-01-03 12:56:43 Error: Fatal Error (1): Call to a member function find() on null in [C:\wamp64\www\cake\app\Controller\ItemsController.php, line 61]
+2018-01-03 12:56:43 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cake/items/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-01-03 12:56:54 Error: Fatal Error (1): Call to a member function find() on null in [C:\wamp64\www\cake\app\Controller\ItemsController.php, line 88]
+2018-01-03 12:56:54 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cake/items/edit/1
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 88)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 88, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 88, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-01-03 12:57:05 Error: Fatal Error (1): Call to a member function find() on null in [C:\wamp64\www\cake\app\Controller\ItemsController.php, line 88]
+2018-01-03 12:57:05 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cake/items/edit/1
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 88)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 88, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 88, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-01-03 12:57:09 Error: Fatal Error (1): Call to a member function find() on null in [C:\wamp64\www\cake\app\Controller\ItemsController.php, line 61]
+2018-01-03 12:57:09 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cake/items/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-01-03 12:58:42 Error: Fatal Error (1): Call to a member function find() on null in [C:\wamp64\www\cake\app\Controller\ItemsController.php, line 61]
+2018-01-03 12:58:42 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cake/items/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-01-03 12:59:24 Error: Fatal Error (1): Call to a member function find() on null in [C:\wamp64\www\cake\app\Controller\ItemsController.php, line 61]
+2018-01-03 12:59:24 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cake/items/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-01-03 12:59:35 Error: Fatal Error (1): Call to a member function find() on null in [C:\wamp64\www\cake\app\Controller\ItemsController.php, line 61]
+2018-01-03 12:59:35 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cake/items/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-01-03 13:00:10 Error: Fatal Error (1): Call to a member function find() on null in [C:\wamp64\www\cake\app\Controller\ItemsController.php, line 61]
+2018-01-03 13:00:10 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cake/items/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-01-03 13:00:45 Error: Fatal Error (1): Call to a member function find() on null in [C:\wamp64\www\cake\app\Controller\ItemsController.php, line 61]
+2018-01-03 13:00:45 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cake/items/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-01-03 13:00:57 Error: Fatal Error (1): Call to a member function find() on null in [C:\wamp64\www\cake\app\Controller\ItemsController.php, line 61]
+2018-01-03 13:00:57 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cake/items/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-01-03 13:03:36 Error: Fatal Error (1): Call to a member function find() on null in [C:\wamp64\www\cake\app\Controller\ItemsController.php, line 61]
+2018-01-03 13:03:36 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cake/items/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-01-03 13:03:51 Error: Fatal Error (1): Call to a member function find() on null in [C:\wamp64\www\cake\app\Controller\ItemsController.php, line 61]
+2018-01-03 13:03:51 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cake/items/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-01-03 13:05:02 Error: Fatal Error (1): Call to a member function find() on null in [C:\wamp64\www\cake\app\Controller\ItemsController.php, line 61]
+2018-01-03 13:05:02 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cake/items/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-01-03 13:06:31 Error: Fatal Error (1): Call to a member function find() on null in [C:\wamp64\www\cake\app\Controller\ItemsController.php, line 61]
+2018-01-03 13:06:31 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cake/items/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 61, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-01-03 13:14:11 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\wamp64\www\cake\app\Model\Item.php, line 88]
+2018-01-03 13:14:11 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /cake/items/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 88)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 88, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 88, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-01-03 13:14:14 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\wamp64\www\cake\app\Model\Item.php, line 88]
+2018-01-03 13:14:14 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /cake/items/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 88)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 88, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 88, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-01-03 13:14:44 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\wamp64\www\cake\app\Model\Item.php, line 88]
+2018-01-03 13:14:44 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /cake/items
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 88)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 88, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 88, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-01-03 14:14:07 Error: [PDOException] SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status_material' at row 1
+Request URL: /cake/materials/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(472): PDOStatement->execute(Array)
+#1 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(438): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 C:\wamp64\www\cake\lib\Cake\Model\Datasource\DboSource.php(1092): DboSource->execute('INSERT INTO `ca...')
+#3 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1940): DboSource->create(Object(Material), Array, Array)
+#4 C:\wamp64\www\cake\lib\Cake\Model\Model.php(1758): Model->_doSave(Array, Array)
+#5 C:\wamp64\www\cake\app\Controller\MaterialsController.php(53): Model->save(Array)
+#6 [internal function]: MaterialsController->add()
+#7 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(MaterialsController), Array)
+#8 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MaterialsController), Object(CakeRequest))
+#10 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2018-01-03 14:39:25 Error: Fatal Error (4): syntax error, unexpected 'rating_material' (T_STRING), expecting variable (T_VARIABLE) in [C:\wamp64\www\cake\app\Model\Material.php, line 43]
+2018-01-03 14:39:25 Error: [FatalErrorException] syntax error, unexpected 'rating_material' (T_STRING), expecting variable (T_VARIABLE)
+Request URL: /cake/materials/index
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 43)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 43, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 43, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-01-03 14:42:41 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp64\www\cake\app\View\Materials\add.ctp, line 9]
+2018-01-03 14:42:41 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /cake/materials/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 9, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 9, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-01-03 14:43:39 Error: [MissingHelperException] Helper class MaterialHelper could not be found.
+Exception Attributes: array (
+  'class' => 'MaterialHelper',
+  'plugin' => false,
+)
+Request URL: /cake/materials/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Material')
+#1 C:\wamp64\www\cake\lib\Cake\View\View.php(858): HelperCollection->__isset('Material')
+#2 C:\wamp64\www\cake\app\View\Materials\add.ctp(9): View->__get('Material')
+#3 C:\wamp64\www\cake\lib\Cake\View\View.php(971): include('C:\\wamp64\\www\\c...')
+#4 C:\wamp64\www\cake\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp64\\www\\c...', Array)
+#5 C:\wamp64\www\cake\lib\Cake\View\View.php(473): View->_render('C:\\wamp64\\www\\c...')
+#6 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#7 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MaterialsController), Object(CakeRequest))
+#9 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2018-01-03 14:43:57 Error: [MissingHelperException] Helper class MaterialHelper could not be found.
+Exception Attributes: array (
+  'class' => 'MaterialHelper',
+  'plugin' => false,
+)
+Request URL: /cake/materials/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Material')
+#1 C:\wamp64\www\cake\lib\Cake\View\View.php(858): HelperCollection->__isset('Material')
+#2 C:\wamp64\www\cake\app\View\Materials\add.ctp(9): View->__get('Material')
+#3 C:\wamp64\www\cake\lib\Cake\View\View.php(971): include('C:\\wamp64\\www\\c...')
+#4 C:\wamp64\www\cake\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp64\\www\\c...', Array)
+#5 C:\wamp64\www\cake\lib\Cake\View\View.php(473): View->_render('C:\\wamp64\\www\\c...')
+#6 C:\wamp64\www\cake\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#7 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(MaterialsController), Object(CakeRequest))
+#9 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2018-01-03 14:45:06 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp64\www\cake\app\View\Materials\add.ctp, line 17]
+2018-01-03 14:45:06 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /cake/materials/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 17, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 17, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-01-03 14:46:52 Error: Fatal Error (4): syntax error, unexpected '=' in [C:\wamp64\www\cake\app\View\Materials\add.ctp, line 7]
+2018-01-03 14:46:52 Error: [FatalErrorException] syntax error, unexpected '='
+Request URL: /cake/materials/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 7, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 7, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-01-03 15:08:33 Error: [MissingActionException] Action ItemsController::select() could not be found.
+Exception Attributes: array (
+  'controller' => 'ItemsController',
+  'action' => 'select',
+)
+Request URL: /cake/items/select
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest))
+#2 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-01-03 15:13:40 Error: [MissingActionException] Action ItemsController::selecy() could not be found.
+Exception Attributes: array (
+  'controller' => 'ItemsController',
+  'action' => 'selecy',
+)
+Request URL: /cake/items/selecy
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp64\www\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest))
+#2 C:\wamp64\www\cake\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-01-03 15:32:32 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\wamp64\www\cake\app\Controller\MaterialsController.php, line 61]
+2018-01-03 15:32:32 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /cake/materials/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 61)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 61, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp64\\www\\c...', 61, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-01-03 15:32:49 Error: Fatal Error (1): Call to a member function find() on null in [C:\wamp64\www\cake\app\Controller\MaterialsController.php, line 60]
+2018-01-03 15:32:49 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cake/materials/add
+Stack Trace:
+#0 C:\wamp64\www\cake\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 60)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 60, Array)
+#2 C:\wamp64\www\cake\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp64\\www\\c...', 60, Array)
+#3 C:\wamp64\www\cake\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
